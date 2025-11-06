@@ -16,7 +16,7 @@ class Vector:
 v1 = Vector(2,5)
 v2 = Vector(6,3)
 
-print(v1)
+print(v1) # Invokes the __str__() Method
 print(v2)
 
 v3 = v1 + v2
@@ -24,3 +24,5 @@ v4 = v1 - v2
 
 print(v3)
 print(v4)
+
+print(type(v3))

@@ -17,3 +17,4 @@ print(S_p1)
 S_p2 = Salesperson("haider", 7000, 3000, 500)
 
 print(S_p2)
+

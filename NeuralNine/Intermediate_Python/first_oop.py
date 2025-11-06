@@ -18,19 +18,20 @@ class Person:
 
     def __str__(self):
         return "Name: {}, Age: {}, Height: {}".format(self.name,self.age,self.height)
-
+    
 person1 = Person("Mike", 25, 180)
 
 person2 = Person('sara',27,150)
+
+person3 = Person('james', 40, 170)
 #print(person1.name)
 
 #print(person1.age)
 #print(person1.height)
-
 # Changing the name in object called person1
 #person1.name = "Henry"
 
-# Deleteing an Object
+# Deleting an Object
 # del person1
 
 #del person2
